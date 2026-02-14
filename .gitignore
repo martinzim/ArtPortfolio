@@ -51,7 +51,7 @@ Generated\ Files/
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
-*.trx
+//*.trx
 
 # NUnit
 *.VisualState.xml
@@ -416,3 +416,19 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+# Oqtane specific files and folders
+Content/Tenants/*/
+!Content/Tenants/Default/
+wwwroot/Modules/
+wwwroot/Themes/
+!wwwroot/Themes/README.md
+Oqtane.db
+Oqtane.db-shm
+Oqtane.db-wal
+*.db
+*.db-shm
+*.db-wal
+
+# Oqtane uploads and content
+Content/Uploads/
+wwwroot/Content/
